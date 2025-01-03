@@ -12,7 +12,7 @@
 	  Start DateTime NOT NULL,
 	  End DateTime  NULL,
 	  CreationDate dateTime NOT NULL,
-	  LastEditDate datetime NULL ,
+	  LastEditDate datetime NULL,
 	  Active bool NOT NULL default true,
 	  CONSTRAINT PK_Training PRIMARY KEY (TimelineId)
 	);
